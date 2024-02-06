@@ -1,0 +1,28 @@
+
+Page should consist of an HTML heading element with "Registration" as text content
+112 ms 
+Page should consist of an HTML input element with label text as "FIRST NAME"
+81 ms 
+Page should consist of an HTML input element with label text as "LAST NAME"
+45 ms 
+When a non-empty first name is provided and the submit button is clicked with empty last name then the page should consist of an HTML paragraph element with "Required" as text content
+78 ms 
+When the submit button is clicked with empty fields then the error message "Required" should be displayed for both the input fields
+36 ms 
+When a non-empty last name is provided and the submit button is clicked with empty first name then the error message "Required" should be displayed
+57 ms 
+On successful submission, an HTML paragraph element with "Submitted Successfully" as text content should be displayed
+71 ms 
+On successful submission, an HTML image element with the given image URL and alt text as "success" should be displayed
+78 ms 
+When "Submit Another Response" button is clicked then the registration form should be displayed
+81 ms 
+When the empty first name field is blurred then the error message "Required" should be displayed
+30 ms 
+When the empty last name field is blurred then the error message "Required" should be displayed
+44 ms 
+When both the first and last name fields are empty and blurred then the error message "Required" should be displayed for both fields
+22 ms 
+When a non-empty first name is provided and blurred then the error message should not be displayed
+37 ms 
+When both the first and last names are provided and blurred then the error message should not be displayed for both fields
